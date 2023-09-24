@@ -40,3 +40,48 @@ __DURABILITY:__ Its  After successful execution,Changes are written successfully
 [3 Normalization](https://www.javatpoint.com/dbms-third-normal-form)
 [Boyce-CODD Normal Form](https://www.javatpoint.com/dbms-boyce-codd-normal-form)
 
+
+
+
+<h1 align="center">SQL </h1>
+
+
+### DDL
+__Data Definition Language__ DDL which deals with database schemas and descriptions.
+__CREATE__
+__ALTER__
+__DROP__
+__TRUNCATE__
+__RENAME__
+### DML 
+__DML__ is short form of Data manipulation language which deals with data manipulation and includes most common SQL statements such 
+__SELECT__
+__INSERT__
+__UPDATE__
+__DELETE__
+__MERGE__
+
+### DCL 
+__DCL__ is short form Data control language which includes commands such as __GRANT__ and mostly concerned with rights, permissions and other controls of the database systems.
+
+__GRANT__
+__INVOKE__
+
+### TCL
+__TCL__ is a short form of Transaction Control Language which deals with a transaction within database.
+__COMMIT__
+__ROLLBACK__
+__SAVEPOINT__
+
+### SQL 
+__SQL__ is a standard language for storing ,manipulating and retrieving data in database.
+
+
+#####SELECT
+```bash
+SELECT col1, col2 from table_name;
+Example : SELECT CustomerName,City from customers;
+
+```
+
+
