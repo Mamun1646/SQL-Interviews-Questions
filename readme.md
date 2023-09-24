@@ -4,4 +4,4 @@
 -Transaction is a single logical unit of work formed by a set of operations. Transaction is a bunldle of operations.
 
 ### Transaction State Image
-![Transaction](transactions/Transaction State.png)
+![Transaction](transactions/transactions.png)
