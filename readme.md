@@ -4,7 +4,7 @@
 -Transaction is a single logical unit of work formed by a set of operations. Transaction is a bundle of operations.
 
 ### Transaction State Image
-![Transaction](transactions/transactions.png)
+![Transaction](images/transactions.png)
 
 ### ACID Properties
 
@@ -19,3 +19,10 @@ __CONSISTENCY:__ Database remains consistent before and after the transaction. _
 __ISOLATION:__ Multiple transactions can occur simultaneously without causing any inconsistency.The transaction were executed serially one by one.
 
 __DURABILITY:__ Its  After successful execution,Changes are written successfully to the permanent disk. Replication or something like that will be help to achieve durability.
+
+### Normalization 
+- Normalization is a process of making database consistent by :
+ -Reducing the redundancies
+ -Ensuring the integrity of data through lossless decomposition.
+
+ ![!N](images/1Normalization.png)
