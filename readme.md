@@ -22,7 +22,18 @@ __DURABILITY:__ Its  After successful execution,Changes are written successfully
 
 ### Normalization 
 - Normalization is a process of making database consistent by :
- -Reducing the redundancies
- -Ensuring the integrity of data through lossless decomposition.
 
- ![!N](images/1Normalization.png)
+ -Reducing the redundancies
+
+ -Ensuring the integrity of data through lossless decomposition.
+### First Normal Form (1NF)
+ ![1N](images/1Normalization.png)
+
+### Second Normal Form (2NF)
+- In the 2NF, relational must be in 1NF.
+- In the second normal form, all non-key attributes are fully functional dependent on the primary key
+
+![1N](images/2Normalization1.png)
+![1N](images/2Normalization2.png)
+
+
