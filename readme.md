@@ -77,7 +77,7 @@ __SAVEPOINT__
 __SQL__ is a standard language for storing ,manipulating and retrieving data in database.
 
 
-#####SELECT
+##### SELECT
 ```bash
 SELECT col1, col2 from table_name;
 Example : SELECT CustomerName,City from customers;
