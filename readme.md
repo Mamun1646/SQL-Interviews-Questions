@@ -36,4 +36,7 @@ __DURABILITY:__ Its  After successful execution,Changes are written successfully
 ![1N](images/2Normalization1.png)
 ![1N](images/2Normalization2.png)
 
+- For More Learn About It
+[3 Normalization](https://www.javatpoint.com/dbms-third-normal-form)
+[Boyce-CODD Normal Form](https://www.javatpoint.com/dbms-boyce-codd-normal-form)
 
