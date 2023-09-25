@@ -76,6 +76,16 @@ __SAVEPOINT__
 ### SQL 
 __SQL__ is a standard language for storing ,manipulating and retrieving data in database.
 
+### DDL
+#### CREATE DATABASE
+```BASH
+CREATE DATABASE databaseName;
+```
+
+#### DROP DATABASE
+```bash
+drop database databaseName;
+```
 
 ##### SELECT
 ```bash
