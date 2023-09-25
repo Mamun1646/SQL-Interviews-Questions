@@ -98,7 +98,7 @@ Example : Select * from customers where country ="Mexico";
 ```
 
 #### Operators
-```bash
+
 | Operator | Description                                            |
 |----------|--------------------------------------------------------|
 | =        | Equal to (used to compare two values for equality).   |
@@ -116,7 +116,7 @@ Example : Select * from customers where country ="Mexico";
 | OR       | Logical OR operator (used to combine multiple conditions; at least one condition must be true). |
 | NOT      | Logical NOT operator (used to negate a condition; returns the opposite of the condition). |
 
-```
+
 
 
 #### ORDER BY
