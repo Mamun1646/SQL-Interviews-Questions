@@ -83,5 +83,48 @@ SELECT col1, col2 from table_name;
 Example : SELECT CustomerName,City from customers;
 
 ```
+#### SELECT DISTINCT
+```bash
+select distinct col1,col2 from table_name;
+
+Example : select distinct customerName from customers;
+```
+
+#### WHERE 
+```bash
+select col1 from where conditions;
+
+Example : Select * from customers where country ="Mexico";
+```
+
+#### Operators
+```bash
+| Operator | Description                                            |
+|----------|--------------------------------------------------------|
+| =        | Equal to (used to compare two values for equality).   |
+| != or <> | Not equal to (used to compare two values for inequality). |
+| <        | Less than (used to check if one value is less than another). |
+| >        | Greater than (used to check if one value is greater than another). |
+| <=       | Less than or equal to (used to check if one value is less than or equal to another). |
+| >=       | Greater than or equal to (used to check if one value is greater than or equal to another). |
+| LIKE     | Pattern matching operator (used to compare text values using wildcards). |
+| BETWEEN  | Range operator (used to check if a value is within a specified range). |
+| IN       | Membership operator (used to check if a value is in a list of specified values). |
+| IS NULL  | Tests for NULL values (used to check if a value is NULL). |
+| IS NOT NULL | Tests for non-NULL values (used to check if a value is not NULL). |
+| AND      | Logical AND operator (used to combine multiple conditions; all conditions must be true). |
+| OR       | Logical OR operator (used to combine multiple conditions; at least one condition must be true). |
+| NOT      | Logical NOT operator (used to negate a condition; returns the opposite of the condition). |
+
+```
+
+
+#### ORDER BY
+The order by keyword is used to sort .
+```bash
+select col1,col2 from table ordered by ASC/DSC;
+
+example:  select customerName from cutomers ORDER BY DESC;
+```
 
 
