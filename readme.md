@@ -138,3 +138,10 @@ example:  select customerName from cutomers ORDER BY DESC;
 ```
 
 
+
+####[Weather Observation Station 5](https://www.hackerrank.com/challenges/weather-observation-station-5/problem?isFullScreen=true&h_r=next-challenge&h_v=zen)
+```sql
+SELECT CITY ,LENGTH (CITY) FROM STATION ORDER BY LENGTH( CITY) ASC ,CITY ASC LIMIT 1;
+
+SELECT CITY ,LENGTH (CITY) FROM STATION ORDER BY LENGTH( CITY) DESC ,CITY ASC LIMIT 1;
+```
